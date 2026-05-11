@@ -1,5 +1,15 @@
 # Python Cheatsheet
 
+## Table of Contents
+
+- [Python Collections](#python-collections)
+- [String Methods](#string-methods)
+- [Objects and Object Oriented Programming (OOP)](#objects-and-object-oriented-programming-oop)
+- [Decorators](#decorators)
+- [Python Virtual Environment](#python-virtual-environment)
+- [pip Package Manager](#pip-package-manager)
+- [PEP 8 – Python Style Guide (Quick Reference)](#pep-8--python-style-guide-quick-reference)
+
 ## Python Collections
 
 Python primarily uses the following collection data structures:
