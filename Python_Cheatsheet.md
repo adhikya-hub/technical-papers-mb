@@ -423,7 +423,7 @@ obj._Geek__name
 
 ## Decorators
 
-Decorators add extra functionality to functions without changing original code. :contentReference[oaicite:0]{index=0}
+Decorators add extra functionality to functions without changing original code.
 
 ---
 
@@ -620,7 +620,7 @@ print(c.area)
 
 ---
 
-## Chaining Decorators
+### Chaining Decorators
 
 Using multiple decorators together.
 
@@ -651,7 +651,7 @@ Output
 
 ---
 
-## Real-World Uses of Decorators
+### Real-World Uses of Decorators
 
 - Logging
 - Authentication
@@ -664,11 +664,11 @@ Output
 ## Python Virtual Environment
 
 A virtual environment is an isolated space for a Python project.  
-It keeps project packages separate from other projects. :contentReference[oaicite:0]{index=0}
+It keeps project packages separate from other projects.
 
 ---
 
-## Why Use Virtual Environment?
+### Why Use Virtual Environment?
 
 - Avoid package conflicts
 - Keep projects separate
@@ -677,7 +677,7 @@ It keeps project packages separate from other projects. :contentReference[oaicit
 
 ---
 
-## Create Virtual Environment
+### Create Virtual Environment
 
 ```bash
 python -m venv myproject
@@ -687,15 +687,7 @@ This creates a folder named `myproject`.
 
 ---
 
-## Activate Virtual Environment
-
-### Windows
-
-```bash
-myproject\Scripts\activate
-```
-
-### macOS/Linux
+### Activate Virtual Environment
 
 ```bash
 source myproject/bin/activate
@@ -709,7 +701,7 @@ After activation:
 
 ---
 
-## Install Package
+### Install Package
 
 Example using `pylint`.
 
@@ -719,7 +711,7 @@ pip install pylint
 
 ---
 
-## Check Installed Package
+### Check Installed Package
 
 ```bash
 pylint --version
@@ -727,7 +719,7 @@ pylint --version
 
 ---
 
-## Create Python File
+### Create Python File
 
 ```python
 # app.py
@@ -739,7 +731,7 @@ print("Hello", name)
 
 ---
 
-## Run Pylint
+### Run Pylint
 
 ```bash
 pylint app.py
@@ -753,7 +745,7 @@ Your code has been rated at 10.00/10
 
 ---
 
-## Deactivate Virtual Environment
+### Deactivate Virtual Environment
 
 ```bash
 deactivate
@@ -761,7 +753,7 @@ deactivate
 
 ---
 
-## Delete Virtual Environment
+### Delete Virtual Environment
 
 ```bash
 rm -rf myproject
@@ -769,7 +761,7 @@ rm -rf myproject
 
 ---
 
-## Benefits
+### Benefits
 
 - Cleaner projects
 - Easier dependency management
@@ -786,6 +778,8 @@ rm -rf myproject
 | `pylint app.py` | Run pylint |
 | `deactivate` | Exit virtual environment |
 
+---
+
 ## pip Package Manager
 
 `pip` is Python’s package manager.  
@@ -801,7 +795,7 @@ Example:
 
 ---
 
-## Check pip Version
+### Check pip Version
 
 ```bash
 pip --version
@@ -809,7 +803,7 @@ pip --version
 
 ---
 
-## Install a Package
+### Install a Package
 
 Example: install `pylint`
 
@@ -819,7 +813,7 @@ pip install pylint
 
 ---
 
-## Use Installed Package
+### Use Installed Package
 
 Create a file:
 
@@ -845,7 +839,7 @@ Your code has been rated at 10.00/10
 
 ---
 
-## View Installed Packages
+### View Installed Packages
 
 ```bash
 pip list
@@ -853,7 +847,7 @@ pip list
 
 ---
 
-## Show Package Information
+### Show Package Information
 
 ```bash
 pip show pylint
@@ -861,7 +855,7 @@ pip show pylint
 
 ---
 
-## Upgrade a Package
+### Upgrade a Package
 
 ```bash
 pip install --upgrade pylint
@@ -869,7 +863,7 @@ pip install --upgrade pylint
 
 ---
 
-## Uninstall a Package
+### Uninstall a Package
 
 ```bash
 pip uninstall pylint
@@ -877,7 +871,7 @@ pip uninstall pylint
 
 ---
 
-## Install Specific Version
+### Install Specific Version
 
 ```bash
 pip install pylint==3.2.0
@@ -885,7 +879,7 @@ pip install pylint==3.2.0
 
 ---
 
-## Install Packages from requirements.txt
+### Install Packages from requirements.txt
 
 ```bash
 pip install -r requirements.txt
@@ -901,7 +895,7 @@ numpy
 
 ---
 
-## Create requirements.txt
+### Create requirements.txt
 
 ```bash
 pip freeze > requirements.txt
@@ -909,7 +903,7 @@ pip freeze > requirements.txt
 
 ---
 
-## Why Use pip?
+### Why Use pip?
 
 - Easy package installation
 - Saves development time
@@ -929,7 +923,7 @@ pip freeze > requirements.txt
 
 ## PEP 8 – Python Style Guide (Quick Reference)
 
-> Code is read more often than it is written. Readability counts.
+Code is read more often than it is written. Readability counts.
 
 ---
 
