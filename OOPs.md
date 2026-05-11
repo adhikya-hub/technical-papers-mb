@@ -594,3 +594,223 @@ Key Points
 - `super()` calls parent class methods
 - Python supports multiple types of inheritance
 - Inheritance improves scalability and maintainability
+
+## Polymorphism in Python
+
+Polymorphism means **one method, function, or operator behaving differently based on the object or data type**.
+
+---
+
+### Method Overriding
+
+Method overriding happens when a child class provides its own implementation of a parent class method.
+
+```python
+class Employee:
+
+    def details(self):
+        print("Employee Details")
+
+
+class SalesEmployee(Employee):
+
+    def details(self):
+        print("Sales Employee Details")
+
+
+employees = [Employee(), SalesEmployee()]
+
+for emp in employees:
+    emp.details()
+```
+
+**Output:**
+
+```python
+Employee Details
+Sales Employee Details
+```
+
+---
+
+### Polymorphism with Different Classes
+
+Different classes can use methods with the same name.
+
+```python
+class Pen:
+
+    def use(self):
+        print("Writing")
+
+
+class Eraser:
+
+    def use(self):
+        print("Erasing")
+
+
+tools = [Pen(), Eraser()]
+
+for tool in tools:
+    tool.use()
+```
+
+**Output:**
+
+```python
+Writing
+Erasing
+```
+
+---
+
+### Polymorphism in Built-in Functions
+
+Built-in functions work with multiple data types.
+
+```python
+print(len("Python"))
+
+print(len([1, 2, 3, 4]))
+```
+
+**Output:**
+
+```python
+6
+4
+```
+
+---
+
+### Polymorphism in Operators
+
+Operators behave differently depending on data type.
+
+```python
+print(5 + 10)
+
+print("Hello " + "World")
+
+print([1, 2] + [3, 4])
+
+print("Hi" * 3)
+```
+
+**Output:**
+
+```python
+15
+Hello World
+[1, 2, 3, 4]
+HiHiHi
+```
+
+---
+
+## Operator Overloading in Python
+
+Operator overloading allows operators to work with custom objects.
+
+Python uses magic methods for this.
+
+| Operator | Magic Method |
+| --- | --- |
+| `+` | `__add__()` |
+| `-` | `__sub__()` |
+| `*` | `__mul__()` |
+| `==` | `__eq__()` |
+| `>` | `__gt__()` |
+| `<` | `__lt__()` |
+
+---
+
+### Overloading `+` Operator
+
+```python
+class Number:
+
+    def __init__(self, value):
+        self.value = value
+
+    def __add__(self, other):
+        return self.value + other.value
+
+
+n1 = Number(10)
+n2 = Number(20)
+
+print(n1 + n2)
+```
+
+**Output:**
+
+```python
+30
+```
+
+---
+
+### Overloading Comparison Operators
+
+```python
+class Student:
+
+    def __init__(self, marks):
+        self.marks = marks
+
+    def __gt__(self, other):
+        return self.marks > other.marks
+
+
+s1 = Student(85)
+s2 = Student(70)
+
+print(s1 > s2)
+```
+
+**Output:**
+
+```python
+True
+```
+
+---
+
+### Overloading Boolean Operators
+
+```python
+class Check:
+
+    def __init__(self, value):
+        self.value = value
+
+    def __and__(self, other):
+        return Check(self.value and other.value)
+
+
+a = Check(True)
+b = Check(False)
+
+result = a & b
+
+print(result.value)
+```
+
+**Output:**
+
+```python
+False
+```
+
+---
+
+Key Points
+
+- Polymorphism means many forms
+- Same method can behave differently
+- Method overriding supports runtime polymorphism
+- Built-in functions are polymorphic
+- Operators can be overloaded using magic methods
+- Magic methods customize object behavior

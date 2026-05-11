@@ -409,6 +409,7 @@ obj._Geek__name
 ## Quick Summary
 
 | Concept | Meaning |
+| -------- | ------- |
 | `__init__()` | Constructor |
 | `self` | Current object |
 | Class Variable | Shared by all objects |
