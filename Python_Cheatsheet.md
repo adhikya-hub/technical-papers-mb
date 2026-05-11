@@ -1,4 +1,6 @@
-# Array Methods (Python Collections)
+# Python Cheatsheet
+
+## Python Collections
 
 Python primarily uses the following collection data structures:
 
@@ -9,7 +11,7 @@ Python primarily uses the following collection data structures:
 
 ---
 
-## List Methods
+### List Methods
 
 Lists are ordered and mutable collections.
 
@@ -29,7 +31,7 @@ Lists are ordered and mutable collections.
 
 ---
 
-## Dictionary Methods
+### Dictionary Methods
 
 Dictionaries store data in key-value pairs.
 
@@ -49,7 +51,7 @@ Dictionaries store data in key-value pairs.
 
 ---
 
-## Tuple Methods
+### Tuple Methods
 
 Tuples are ordered and immutable collections.
 
@@ -60,7 +62,7 @@ Tuples are ordered and immutable collections.
 
 ---
 
-## Set Methods
+### Set Methods
 
 Sets store unique values.
 
