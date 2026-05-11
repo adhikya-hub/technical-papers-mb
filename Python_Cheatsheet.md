@@ -933,6 +933,8 @@ pip freeze > requirements.txt
 | `pip freeze` | Show installed packages |
 | `pip install -r requirements.txt` | Install from file |
 
+---
+
 ## PEP 8 – Python Style Guide (Quick Reference)
 
 Code is read more often than it is written. Readability counts.
