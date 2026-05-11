@@ -595,7 +595,7 @@ Key Points
 - Python supports multiple types of inheritance
 - Inheritance improves scalability and maintainability
 
-## Polymorphism in Python
+## 4. Polymorphism 
 
 Polymorphism means **one method, function, or operator behaving differently based on the object or data type**.
 
