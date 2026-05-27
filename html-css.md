@@ -6,7 +6,7 @@
 
 2. [Inline versus Block Elements](#inline-versus-block-elements)
 
-3. [Positioning: Relative/Absolute](#positioning-relativeabsolute)
+3. [Positioning: Relative and Absolute](#positioning-relativeabsolute)
 
 4. [Common CSS Structural Classes](#common-css-structural-classes)
 
