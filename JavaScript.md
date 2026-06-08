@@ -1,6 +1,6 @@
 # JavaScript
 
-1. [different datatypes in JavaScript](##different-datatypes-in-javascript)
+1. [different datatypes in JavaScript](#different-data-types-in-javascript)
 2. [scopes in javaScript](#scopes-in-javascript)
 3. [let, var, const](#let-var-const)
 4. [why we must not use var](#why-we-must-not-use-var)
