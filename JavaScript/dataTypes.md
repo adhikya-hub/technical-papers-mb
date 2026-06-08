@@ -178,7 +178,7 @@ Output:
 
 ---
 
-# Null
+### Null
 
 `null` represents an intentional absence of a value.
 
